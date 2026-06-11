@@ -1,0 +1,6 @@
+{
+  "name": "DNS Spoofing Detection and Prevention Tool",
+  "description": "An interactive DNS Spoofing Detection and Prevention dashboard, pipeline simulator, and Software Architecture Document viewer.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

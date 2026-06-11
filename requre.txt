@@ -1,0 +1,8 @@
+#select folder
+cd my-project
+
+#install dependecy 
+npm install
+
+#for run this program 
+npm run dev
