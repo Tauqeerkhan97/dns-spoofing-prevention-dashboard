@@ -54,31 +54,9 @@ Yeh project educational aur research purpose ke liye bana hai. Real network envi
 Made with ❤️ by Muhammad Tauqeer
 Backend & AI Engineer | Cybersecurity Enthusiast
 🔗 Portfolio: https://my-portfolio-theta-wine-24.vercel.app
-text---
 
-### Upload Karne Se Pehle Yeh Kar Lo:
 
-1. **Screenshots** banao (Dashboard ka, detection alert ka, running tool ka).
-2. **requirements.txt** aur **Dockerfile** (agar hai) zaroor include karo.
-3. Project ko clean kar lo (unnecessary files mat upload karo).
-4. `.gitignore` file bana lo.
 
-**Kya yeh project FastAPI + Database ke saath hai?**  
-Agar haan to main uske hisaab se README aur improve kar sakta hoon.
 
----
 
-**Ab Action Plan:**
 
-1. Is project ko pehle upload kar do (kyunki yeh unique hai).
-2. Phir "Native AI" backend projects upload karo.
-3. Dono ko apne Portfolio mein add kar do with proper description.
-
-**Batao:**
-- Is DNS project mein kaunsi technologies use ki hain? (FastAPI, Scapy, React, etc.)
-- Dashboard kis se bana hai?
-- Kitne total projects ready hain upload karne ke liye?
-
-Jitna detail doge, utna better README bana ke de sakta hoon.  
-
-Chalo, ab upload shuru karte hain! Koi issue aaye to batao.
