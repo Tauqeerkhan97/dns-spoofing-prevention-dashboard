@@ -1,0 +1,112 @@
+
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e3a5f"/>
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bg)"/>
+
+  <!-- subtle grid pattern -->
+  <g opacity="0.08" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60"/>
+    <line x1="0" y1="120" x2="1200" y2="120"/>
+    <line x1="0" y1="180" x2="1200" y2="180"/>
+    <line x1="0" y1="240" x2="1200" y2="240"/>
+  </g>
+
+  <!-- Shield icon -->
+  <g transform="translate(90,80)">
+    <path d="M70 0 L140 25 L140 80 C140 125 105 150 70 165 C35 150 0 125 0 80 L0 25 Z"
+          fill="url(#shieldGrad)" opacity="0.95"/>
+    <path d="M40 82 L60 102 L102 55" fill="none" stroke="#0f172a" stroke-width="9"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Connection nodes representing network / DNS -->
+  <g stroke="#38bdf8" stroke-width="2" opacity="0.5">
+    <line x1="260" y1="90" x2="320" y2="60"/>
+    <line x1="260" y1="150" x2="320" y2="180"/>
+    <line x1="260" y1="90" x2="260" y2="150"/>
+  </g>
+  <circle cx="260" cy="90" r="6" fill="#38bdf8"/>
+  <circle cx="260" cy="150" r="6" fill="#38bdf8"/>
+  <circle cx="320" cy="60" r="6" fill="#22c55e"/>
+  <circle cx="320" cy="180" r="6" fill="#22c55e"/>
+
+  <!-- Title -->
+  <text x="380" y="140" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#ffffff">
+    DNS Spoofing Prevention
+  </text>
+  <text x="380" y="185" font-family="Segoe UI, Arial, sans-serif" font-size="52" font-weight="700" fill="#38bdf8">
+    Dashboard
+  </text>
+  <text x="382" y="220" font-family="Segoe UI, Arial, sans-serif" font-size="20" fill="#94a3b8">
+    Real-time DNS monitoring · Threat detection · Attack alerts
+  </text>
+</svg>
+
+
+<svg width="1100" height="380" viewBox="0 0 1100 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .box { fill:#0f172a; stroke:#38bdf8; stroke-width:2; rx:14; }
+      .boxAlert { fill:#0f172a; stroke:#ef4444; stroke-width:2; rx:14; }
+      .label { font-family: Segoe UI, Arial, sans-serif; font-size:18px; fill:#e2e8f0; font-weight:600; }
+      .sub { font-family: Segoe UI, Arial, sans-serif; font-size:13px; fill:#94a3b8; }
+      .arrow { stroke:#38bdf8; stroke-width:2.5; fill:none; marker-end:url(#arrowhead); }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#38bdf8"/>
+    </marker>
+  </defs>
+
+  <rect width="1100" height="380" fill="#ffffff"/>
+
+  <!-- Step 1 -->
+  <rect x="40" y="150" width="200" height="90" rx="14" class="box"/>
+  <text x="140" y="188" text-anchor="middle" class="label">DNS Queries</text>
+  <text x="140" y="210" text-anchor="middle" class="sub">Client requests</text>
+
+  <path d="M240 195 L320 195" class="arrow"/>
+
+  <!-- Step 2 -->
+  <rect x="320" y="150" width="220" height="90" rx="14" class="box"/>
+  <text x="430" y="188" text-anchor="middle" class="label">Traffic Sniffer</text>
+  <text x="430" y="210" text-anchor="middle" class="sub">Captures DNS responses</text>
+
+  <path d="M540 195 L620 195" class="arrow"/>
+
+  <!-- Step 3 -->
+  <rect x="620" y="150" width="220" height="90" rx="14" class="box"/>
+  <text x="730" y="180" text-anchor="middle" class="label">Detection Engine</text>
+  <text x="730" y="202" text-anchor="middle" class="sub">Validates IP mapping,</text>
+  <text x="730" y="220" text-anchor="middle" class="sub">TTL &amp; response consistency</text>
+
+  <!-- branch down to dashboard -->
+  <path d="M730 240 L730 290" class="arrow"/>
+  <rect x="620" y="290" width="220" height="70" rx="14" class="box"/>
+  <text x="730" y="320" text-anchor="middle" class="label">Live Dashboard</text>
+  <text x="730" y="340" text-anchor="middle" class="sub">Charts &amp; DNS logs</text>
+
+  <!-- branch right to alert -->
+  <path d="M840 195 L940 195" class="arrow" stroke="#ef4444" marker-end="url(#arrowhead-red)"/>
+  <defs>
+    <marker id="arrowhead-red" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#ef4444"/>
+    </marker>
+  </defs>
+  <rect x="940" y="150" width="120" height="90" rx="14" class="boxAlert"/>
+  <text x="1000" y="188" text-anchor="middle" class="label" fill="#ef4444">Alert</text>
+  <text x="1000" y="210" text-anchor="middle" class="sub">Spoofing detected</text>
+
+  <text x="550" y="40" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" fill="#0f172a">
+    How It Works
+  </text>
+</svg>
