@@ -1,4 +1,4 @@
-# DNS Spoofing Prevention Dashboard 🛡️
+# DNS Spoofing Prevention Dashboard 
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-success)
@@ -12,20 +12,20 @@ A real-time monitoring dashboard designed to **detect and prevent DNS spoofing (
   <img src="assets/banner.svg" alt="DNS Spoofing Prevention Dashboard Banner" width="100%">
 </p>
 
-## 📌 About the Project
+##  About the Project
 
 DNS spoofing is an attack where malicious actors corrupt the DNS resolution process, redirecting users to fake or harmful websites without their knowledge. This project provides a dashboard that helps identify such attacks early by monitoring DNS queries/responses and highlighting anomalies (e.g., unexpected IP mappings, mismatched records, suspicious response patterns).
 
 ## ✨ Features
 
-- 🔍 **Real-time DNS traffic monitoring**
-- 🚨 **Detection of suspicious/spoofed DNS responses**
-- 📊 **Visual dashboard** with logs, alerts, and statistics
-- 🧾 **Alert/log history** of detected spoofing attempts
-- ⚙️ **Configurable rules/thresholds** for detection
-- 🖥️ Simple, easy-to-use web interface
+-  **Real-time DNS traffic monitoring**
+-  **Detection of suspicious/spoofed DNS responses**
+-  **Visual dashboard** with logs, alerts, and statistics
+-  **Alert/log history** of detected spoofing attempts
+-  **Configurable rules/thresholds** for detection
+-  Simple, easy-to-use web interface
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 > Update this section with the exact tools/frameworks used in your project.
 
@@ -34,7 +34,7 @@ DNS spoofing is an attack where malicious actors corrupt the DNS resolution proc
 - **Database:** _(e.g., SQLite / MySQL / MongoDB)_
 - **Networking/Packet Analysis:** _(e.g., Scapy / pyshark)_
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 dns-spoofing-prevention-dashboard/
@@ -48,7 +48,7 @@ dns-spoofing-prevention-dashboard/
 
 *(Update this structure to match your actual repository layout.)*
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -81,13 +81,13 @@ http://localhost:5000
 
 *(Adjust the run command/port based on your actual setup.)*
 
-## 🧭 How It Works
+##  How It Works
 
 <p align="center">
   <img src="assets/how-it-works.svg" alt="How the DNS Spoofing Prevention Dashboard Works" width="90%">
 </p>
 
-## 📸 Screenshots
+##  Screenshots
 
 > Add real screenshots of your running dashboard here once available — just drop the image files into the `assets/` folder and reference them the same way as above, e.g.:
 > ```markdown
@@ -96,7 +96,7 @@ http://localhost:5000
 > </p>
 > ```
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Feel free to fork this repository, create a feature branch, and submit a pull request.
 
@@ -106,7 +106,7 @@ Contributions are welcome! Feel free to fork this repository, create a feature b
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📄 License
+##  License
 
 This project is open source. Add your preferred license here (e.g., MIT License).
 
