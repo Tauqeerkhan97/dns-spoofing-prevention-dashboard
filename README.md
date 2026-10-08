@@ -113,7 +113,6 @@ This project is open source. Add your preferred license here (e.g., MIT License)
 ## 👤 Author
 
 **Tauqeer Khan**
-GitHub: [@Tauqeerkhan97](https://github.com/Tauqeerkhan97)
 
 ---
 
