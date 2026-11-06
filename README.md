@@ -116,4 +116,4 @@ This project is open source. Add your preferred license here (e.g., MIT License)
 
 ---
 
-⭐ If you find this project useful, consider giving it a star on GitHub!
+⭐ If you find this project useful, consider giving 
